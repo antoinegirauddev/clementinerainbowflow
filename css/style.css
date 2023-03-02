@@ -1,0 +1,87 @@
+/* Gestion des polices */
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Gestion de l'en-tête */
+
+header ul {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.header__title {
+  background-color: aqua;
+  color: rgb(195, 0, 255);
+}
+
+h2 {
+  background-color: blue;
+  color: bisque;
+}
+
+h3 {
+  background-color: bisque;
+  color: blue;
+}
+
+.header__paragraph, .header__ul{
+  color: purple;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav__li {
+  background-color: beige;
+}
+
+a {
+  color: rgb(89, 162, 226);
+}
+
+.menu {
+
+}
+
+.menu__navigation {
+  background-color: blueviolet;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__navigation__sousMenu {
+  background-color: greenyellow;
+  /* position: absolute; */
+}
+
+.menu__navigation__dernierMenu {
+  background-color: lightyellow;
+  /* position: absolute; */
+}
+
+.menu__navigation li {
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+/* Gestion du footer */
+
+.footer__container {
+  display: flex;
+  background-color: lightyellow;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto; 
+  border: 3px dashed blueviolet;
+}
+
+.footer__container ul {
+  list-style: none;
+  background-color: #00ffff;
+}
+
+.footer__container a {
+  text-decoration: none;
+}
