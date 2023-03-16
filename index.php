@@ -1,3 +1,5 @@
+<?php $coucou = "test"; echo $coucou ; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clémentine Rainbow Flow</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
     <header class="header">
@@ -16,7 +18,7 @@
         <p class="header__paragraph">~ Site internet en construction ~</p>
         <p class="header__paragraph">Dans ce site tu trouveras :</p>
         <ul class="header__ul">
-            <li>Des créations artistiques</li>
+            <li>Des créations artistiques </li>
             <li>Des écrits</li>
         </ul>
 
