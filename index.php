@@ -1,5 +1,3 @@
-<?php $coucou = "test"; echo $coucou ; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clémentine Rainbow Flow</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" title="default">
+    <!-- Icone à rajouter dans le lien ci-dessous, donc à créer dans le dossier images-->
+    <link rel="stylesheet" type="text/css" href="./css/rainbow_style.css" disabled>
+    <link rel="icon" href="./images/favicon.ico">
 </head>
 <body>
     <header class="header">
 
         <h1 class="header__title">Bienvenue sur mon site clementinerainbowflow</h1>
+        <div class="menu__color-switcher">
+        <button id="theme-dark" class="theme-button" type="button" aria-label="Changer la couleur du thème"></button>
+        <button id="theme-rainbow" class="theme-button" type="button" aria-label="Changer la couleur du thème"></button>
+        </div>
         <h2 class="header__subtitle">Il y a des fleurs partout pour qui veut bien les voir</h2>
         <h3>Nous sommes tous des artistes</h3>
         <p class="header__paragraph">~ Site internet en construction ~</p>
@@ -21,8 +26,6 @@
             <li>Des créations artistiques </li>
             <li>Des écrits</li>
         </ul>
-
-
             <nav class="menu">
                 <ul class="menu__navigation">
                     <li><a href="crea_graphiques.html" title="Créations graphiques" alt="Créations graphiques">Créations graphiques</a>
@@ -76,6 +79,6 @@
                 <li><a href="me contacter.html" title="Me contacter" target="_blank" alt="Me contacter">Me contacter</a></li>
             </ul>
         </div>
-    </footer>
-</body>
-</html>
+        <?php
+        include "./php/includes/templates/footer.tpl.php";
+        ?>

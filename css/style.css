@@ -5,6 +5,24 @@ body {
 
 /* Gestion de l'en-tête */
 
+#theme-dark {
+  border: 0;
+  border-radius: 50%;
+  background-color: black;
+  padding: .7rem;
+  display: inline-block;
+  margin-left: .3rem;
+}
+
+#theme-rainbow {
+  border: 0;
+  border-radius: 50%;
+  background-color: yellowgreen;
+  padding: .7rem;
+  display: inline-block;
+  margin-left: .3rem;
+}
+
 header ul {
   list-style: none;
   padding: 0 20px;
@@ -84,4 +102,20 @@ a {
 
 .footer__container a {
   text-decoration: none;
+}
+
+.theme-dark {
+  color: white;
+  background-color: rgb(22, 22, 22);
+  --border-normal: 1px solid rgba(255, 255, 255, .2);
+  --color-bg: rgb(15, 15, 15);
+  --color-opacity: rgba(255, 255, 255, .1);
+}
+
+.theme-rainbow {
+  color: rgb(102, 30, 30);
+  background-color: rgb(82, 168, 25);
+  --border-normal: 1px solid rgba(32, 136, 184, 0.2);
+  --color-bg: rgb(197, 170, 19);
+  --color-opacity: rgba(136, 17, 126, 0.1);
 }
